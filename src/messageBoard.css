@@ -1,0 +1,24 @@
+.box{
+    width:40%;
+    display:inline-block;
+    padding-left:20px;
+    padding-right:20px;
+    margin:30px;
+    background: rgb(251,251,251);
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+        0 10px 0 -5px #eee, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #eee, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15);
+}
+
+.messageboard{
+    min-height:100vh;
+    background-color:#DDDEE4;
+}
+
+.inputting{
+    margin:50px;
+    margin-bottom:40px;
+}
